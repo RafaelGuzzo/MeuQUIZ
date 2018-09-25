@@ -54,17 +54,17 @@ public class RespostaActivity extends AppCompatActivity {
             if (pontos >= 4 && pontos < 7 ) {
                 imgResposta.setImageResource(R.drawable.ic_superman);
                 resposta.setText("Você está proximo de se tornar um novo Super Heroi!" +
-                        "Fez " + pontos + " pontos!");
+                        "Você fez " + pontos + " pontos!");
 
             } else if(pontos >= 7){
                 imgResposta.setImageResource(R.drawable.ic_avengers);
                 resposta.setText("Você já ouviu falar da iniciativa Vingadores?\n" +
-                        "Seu " + pontos + " pontos ");
+                        "Você fez " + pontos + " pontos ");
 
             }else{
                 imgResposta.setImageResource(R.drawable.ic_hero);
                 resposta.setText("Não fique Triste! Você está no caminho certo\n" +
-                        "Seus " + pontos + " pontos!");
+                        "Você fez " + pontos + " pontos!");
 
 
             }
